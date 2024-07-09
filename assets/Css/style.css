@@ -1,0 +1,61 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #212529;
+  font-family: poppins, ans-serif;
+  font-weight: 100;
+}
+
+h1{
+  text-align: center;
+  
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+  background-color: #6c757d;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 500px;
+  padding-bottom: 2rem;
+}
+
+.card input, select{
+  width: 50%;
+  border-radius: 5px;
+  text-align: center;
+  padding: .5rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+
+}
+
+button{
+  width: 15%;
+  border: none;
+  border-radius: 5px;
+  padding: .5em 1em;
+  background-color: #0dcaf0;
+  margin: auto;
+  color: white;
+}
+
+button:hover{
+  background-color: #065463;
+  
+}
+
