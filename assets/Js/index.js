@@ -36,7 +36,7 @@ document.getElementById('btn').addEventListener('click', async function(event) {
         }
 
         if (rate === null) {
-            document.getElementById('result').textContent = 'No se puede obtener el cambio de esta moneda seleccionada.';
+            document.getElementById('result').textContent = 'No  se puede realizar cambio.';
             return;
         }
 
